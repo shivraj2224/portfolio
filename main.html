@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="myscript.js" ></script>
+	<title>Portfolio</title>
+</head>
+<body onload="changeSlide(0)">
+	<div class="navbar">
+		<ul class="navlist">
+			<li><a href="#" >Profile</a></li>
+			<li><a href="#" >Education</a></li>
+			<li><a href="#" >Experience</a></li>
+			<li><a href="#" >Contact</a></li>
+		</ul>    
+		
+	</div>
+
+	<div class="timeline">
+
+		<img src="profile.jpg" alt="pic" id="profile">
+
+		<div>
+			<h3>SHIVRAJ</h3>
+			<h5>Front-End Developer</h5>
+		</div>
+
+	</div>
+
+	<div class="container">
+		<div class="slides">
+			<h2 class="slide-head">SCHOOL </h2>
+			<p class="slide-body">KAlYANI ENGLISH MEDIUM SCHOOL ,KARVE NAKA</p>
+		</div>
+		<div class="slides">
+			<h2 class="slide-head">COLLEGE </h2>
+			<p class="slide-body">SADGURU GADGE MAHARAJ ,KARAD</p>
+		</div>
+		<div class="slides">
+			<h2 class="slide-head">GRADUATION</h2>
+			<p class="slide-body">SHRI GURU GOBIND SINGHJI INSTITUTE OF ENGINEERING AND TECHNOLOGY ,NANDED</p>
+		</div>
+
+		<a id="left" onclick="changeSlide(-1)">&#10094</a>
+		<a id="right" onclick="changeSlide(1)">&#10095</a>
+
+	</div>
+	
+</body>
+</html>
